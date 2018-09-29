@@ -5,12 +5,12 @@ $( document ).ready(function() {
     $('.fadein').addClass('fadedin');
 
     // slide up tables
-    $('table').slideUp();
+    $('div.table').slideUp();
 });
 
 // toggle available units sliding
 $(document).on("click",".unit-dropdown",function() {
-    $( this ).next("table").slideToggle();
+    $( this ).next("div.table").slideToggle();
 });
 
 //Smooth scrolling with links
