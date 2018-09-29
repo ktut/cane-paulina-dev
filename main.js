@@ -1,6 +1,6 @@
 
 // slide up tables
-// $('div.table').slideUp();
+$('div.table').slideUp();
 
 // on load:
 $( document ).ready(function() {
