@@ -1,8 +1,12 @@
-// fade in items as necessary
-$('.fadein').addClass('fadedin');
 
-// slide up tables on load
-$('table').slideUp();
+// on load:
+$( document ).ready(function() {
+    // fade in items as necessary
+    $('.fadein').addClass('fadedin');
+
+    // slide up tables
+    $('table').slideUp();
+});
 
 // toggle available units sliding
 $(document).on("click",".unit-dropdown",function() {
