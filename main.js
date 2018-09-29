@@ -9,7 +9,7 @@ $( document ).ready(function() {
 });
 
 // toggle available units sliding
-$(document).on("click",".unit-dropdown",function() {
+$(document).on("click",".unit-dropdown.active",function() {
     $( this ).next("div.table").slideToggle();
 });
 
