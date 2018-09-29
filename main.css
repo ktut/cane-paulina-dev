@@ -1,0 +1,218 @@
+/* FONTS */
+
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+/* BASE FONT SIZE */
+html {
+    font-size: 17px;
+}
+
+/* body {
+    background: #eee;
+} */
+
+h1,
+h2,
+h3 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: 2.4rem;
+    line-height: 100%;
+    font-weight: 400;
+}
+
+h1:first-of-type {
+    margin-top: 10px;
+}
+
+h2 {
+    font-size: 1.3rem;
+    line-height: 130%;
+    font-weight: 300;
+}
+
+h1,
+h2 {
+    margin-bottom: 30px;
+}
+
+h3 {
+    line-height: 100%;
+    margin-bottom: 15px;
+}
+
+p,
+th,
+td {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+b {
+    font-weight: 700;
+}
+
+p,
+ul {
+    margin-bottom: 25px;
+}
+
+p.short {
+    margin-bottom: 10px;
+}
+
+p,
+li {
+    line-height: 150%;
+    letter-spacing: 0.1px;
+}
+
+ul {
+    list-style-position: inside;
+    padding-left: 1rem;
+}
+
+li {
+    font-weight: 300;
+    margin-bottom: 15px;
+    list-style-type: disc;
+}
+
+p em {
+    font-style: italic;
+}
+
+.small {
+    font-size: 0.7rem;
+    letter-spacing: 0.2px;
+}
+
+.caps {
+    text-transform: uppercase;
+}
+
+.small.caps {
+    line-height: 80%;
+}
+
+.coming-soon {
+    color: #999;
+}
+
+a {
+    transition: all 0.3s;
+    color: #c00;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: red;
+}
+
+
+
+/* LAYOUT */
+
+
+section {
+    padding: 5px;
+    margin: 0 auto;
+}
+
+section:first-of-type {
+    padding-top: 25px;
+}
+
+table {
+    margin-bottom: 40px;
+}
+
+table,
+tr {
+    width: 100%;;
+}
+
+thead {
+    font-weight: 700;
+    border-bottom: 1px solid black;
+}
+
+td,
+th {
+    padding: 10px 4px;
+}
+
+th {
+    font-weight: 700;
+}
+
+.contact-box {
+    max-width: 250px;
+    margin: 20px auto;
+    text-align: center;
+    background: #222;
+    color: white;
+    padding: 20px 25px 15px;
+}
+
+.contact-box p {
+    font-size: 1.2rem;
+    letter-spacing: 0.3px;
+}
+
+.contact-box a {
+    color: red;
+}
+
+body {
+    min-height: 100vh;
+}
+
+footer {
+    margin-top: 50px;
+    padding: 15px;
+}
+
+footer .logos {
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+}
+
+footer .logos > div {
+    margin: 20px;
+}
+
+footer .logos > div img {
+    width: 100%;
+}
+
+footer .logos .lead-logo {
+    width: 175px;
+}
+
+footer .logos .end-logo {
+    width: 87.5px;
+}
+
+@media screen and (max-width: 500px) {
+    footer .logos {
+        display: block;
+        text-align: center;
+    }
+
+    footer .logos > div {
+        display: inline-block;
+    }
+
+    footer {
+        margin-top: 15px;
+        margin-bottom: 40px;
+    }
+}
