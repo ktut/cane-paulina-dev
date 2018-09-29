@@ -304,6 +304,10 @@ footer .end-logo {
         margin-bottom: 25px;
     }
 
+    .contact-box p {
+        font-size: 1.2rem;
+    }
+
     footer {
         display: block;
         text-align: center;
