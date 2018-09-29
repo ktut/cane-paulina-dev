@@ -153,7 +153,7 @@ div.img-topper {
     position: relative;
     background-image: url(./assets/kitchen.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: 45% 50%;
     min-height: 59vw;
 }
 
@@ -169,14 +169,13 @@ div.img-topper > h1 {
 }
 
 section {
-    max-width: 900px;
     text-align: center;
     padding: 25px;
     margin: 0 auto;
 }
 
 section.copper {
-    background: #b87333;
+    background: #ddaf84;
 }
 
 section.lead {
@@ -194,7 +193,7 @@ section.lead h2 {
 section.lead p {
     padding-left: 10px;
     padding-right: 10px;
-    flex: 0 1 540px;
+    flex: 0 1 550px;
     margin: 0;
 }
 
@@ -244,7 +243,7 @@ img {
     text-align: center;
     background: #222;
     color: white;
-    padding: 20px 25px 15px;
+    padding: 25px;
 }
 
 .contact-box p {
@@ -261,8 +260,7 @@ body {
 }
 
 footer {
-    margin-top: 15px;
-    padding: 15px;
+    padding: 25px 25px 40px;
 }
 
 footer .logos {
@@ -289,10 +287,24 @@ footer .logos .end-logo {
 
 @media screen and (max-width: 767px) {
 
+
+    div.img-topper {
+        min-height: 400px;
+    }
+
+    div.img-topper > h1 {
+        font-size: 3.5rem;
+        letter-spacing: -1px;
+    }
+
     section.lead {
         display: block;
         text-align: center;
         padding: 15px;
+    }
+
+    section.lead p {
+        margin-bottom: 25px;
     }
 
     footer .logos {
@@ -307,4 +319,6 @@ footer .logos .end-logo {
     footer {
         margin-bottom: 40px;
     }
+
+    
 }
