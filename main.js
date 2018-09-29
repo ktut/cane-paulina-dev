@@ -1,17 +1,20 @@
 
 // slide up tables
-$('div.table').slideUp();
+// $('div.table').slideUp();
 
 // on load:
 $( document ).ready(function() {
     // fade in items as necessary
     $('.fadein').addClass('fadedin');
-
 });
 
 // toggle available units sliding
-$(document).on("click",".unit-dropdown.active",function() {
+$( document ).on("click",".unit-dropdown.active",function() {
     $( this ).next("div.table").slideToggle();
+});
+
+$( document ).on("click",".test",function() {
+    $( this ).hide();
 });
 
 //Smooth scrolling with links
