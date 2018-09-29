@@ -9,13 +9,9 @@ $( document ).ready(function() {
 });
 
 // toggle available units sliding
-$( document ).on("click",".unit-dropdown.active",function() {
-    // $( this ).next("div.table").slideToggle();
-    $( this ).hide();
-});
-
-$( document ).on("click",".test",function() {
-    $( this ).hide();
+// $( document ).on("click",".unit-dropdown.active",function() {
+$( ".unit-dropdown.active" ).click(function() {
+    $( this ).next("div.table").slideToggle();
 });
 
 //Smooth scrolling with links
