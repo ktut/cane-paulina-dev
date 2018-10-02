@@ -196,7 +196,7 @@ section.lead h2 {
 section.lead p {
     padding-left: 10px;
     padding-right: 10px;
-    flex: 0 1 550px;
+    flex: 0 1 570px;
     margin: 0;
 }
 
@@ -279,11 +279,10 @@ footer {
 }
 
 footer .end-logo {
-    width: 70px;
+    width: 40px;
 }
 
 @media screen and (max-width: 767px) {
-
 
     div.img-topper {
         min-height: 400px;
