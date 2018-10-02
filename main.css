@@ -89,7 +89,7 @@ ul {
 }
 
 p.short {
-    margin-bottom: 10px;
+    margin-bottom: 8px;
 }
 
 p,
@@ -245,13 +245,13 @@ img {
 
 .contact-box {
     text-align: center;
-    padding: 25px;
-    margin-top: -3px;
+    padding-top: 2vw;
 }
 
 .contact-box p {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     letter-spacing: 0.3px;
+    color: white;
 }
 
 .contact-box p.serif {
@@ -271,18 +271,33 @@ footer {
     display: -webkit-flex;
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: center;
 
     padding: 25px 30px 25px;
     background: black;
     margin-top: -3px;
 }
 
-footer .end-logo {
-    width: 40px;
+.lead-logo,
+.end-logo {
+    flex-basis: 30%;
 }
 
-@media screen and (max-width: 767px) {
+.end-logo {
+    align-self: flex-end;
+    text-align: right;
+}
+
+.end-logo img {
+    width: 40px;    
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 830px) {
+    .contact-box {
+        order: -1;
+    }
 
     div.img-topper {
         min-height: 400px;
@@ -312,7 +327,7 @@ footer .end-logo {
     }
 
     footer {
-        display: block;
+        flex-direction: column;
         text-align: center;
     }
 
@@ -320,6 +335,7 @@ footer .end-logo {
         display: block;
         max-width: 300px;
         margin: 0 auto 42px;
+        text-align: center !important;
     }
 
     
