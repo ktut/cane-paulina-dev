@@ -196,7 +196,7 @@ section.lead h2 {
 section.lead p {
     padding-left: 10px;
     padding-right: 10px;
-    flex: 0 1 570px;
+    flex: 0 1 520px;
     margin: 0;
 }
 
@@ -254,6 +254,10 @@ img {
     color: white;
 }
 
+.contact-box p a {
+    color: white;
+}
+
 .contact-box p.serif {
     font-family: 'Libre Baskerville', serif;
     text-transform: uppercase;
@@ -289,7 +293,7 @@ footer {
 }
 
 .end-logo img {
-    width: 40px;    
+    width: 30px;    
     margin-bottom: 10px;
     margin-right: 10px;
 }
@@ -306,7 +310,7 @@ footer {
     div.img-topper > h1 {
         font-size: 3.5rem;
         letter-spacing: -1px;
-        text-align: center;
+        /* text-align: center; */
         width: 100%;
         box-sizing: border-box;
     }
@@ -319,7 +323,6 @@ footer {
 
     section.lead p {
         margin-bottom: 25px;
-        padding: 0;
     }
 
     .contact-box p {
@@ -338,5 +341,7 @@ footer {
         text-align: center !important;
     }
 
-    
+    .end-logo img {
+        margin: 0;
+    }
 }
